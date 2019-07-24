@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 String curry2 = curr1.getString(currency2.getText().toString().toUpperCase());
                 double cal1 = Double.parseDouble(curry2)/Double.parseDouble(curry1);
                 String cal = "" + cal1;
-                ans.setText( " 1 " + currency1.getText().toString().toUpperCase() + " = " + cal + " " + currency2.getText().toString().toUpperCase()+ "\n\n This data is according to the date " + date );
+                ans.setText( " 1 " + currency1.getText().toString().toUpperCase() + " = " + cal + " " + currency2.getText().toString().toUpperCase()+ "\n\n This data is according to the date : " + date );
             }
             catch (JSONException e)
             {
